@@ -1,9 +1,10 @@
 import './home.css'
+import DishOfTheDay from './DishOfTheDay'
 
 export default function Home(){
     return(
         <main>
-            <h1>Home Page</h1>
+            <DishOfTheDay/>
         </main>
     )
 }

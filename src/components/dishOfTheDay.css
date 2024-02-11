@@ -1,0 +1,11 @@
+.dish{
+    display: flex;
+    border: solid 1px;
+    justify-content: space-around;
+}
+
+#dish-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

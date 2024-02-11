@@ -1,4 +1,4 @@
-import PageNotFound from './404';
+import PageNotFound from './components/404';
 import './App.css';
 import About from './components/About';
 import Home from './components/Home';
