@@ -3,12 +3,23 @@ header{
     padding :2vw 10vw;
     border: solid 1px;
     height: 20vh;
+    justify-content: space-between;
     align-items: center;
     
 }
-#image{
-    flex :1;
+a{
+    color: green;
+    text-decoration-line: none;
+    
 }
+
+a:hover{
+    background-color: green;
+    height: fit-content;
+    color: white;
+}
+
+
 #navigation-elements{
     display: flex;    
     font-weight: bold;

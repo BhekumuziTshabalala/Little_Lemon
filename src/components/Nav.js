@@ -1,21 +1,30 @@
 import logo from'../assets/logo.png'
 import './nav.css'
 export default function Nav(){
+    var Component;
     return (
-        <header>
-            <div id='image'>
-                <img src={logo} alt='logo' id='header-logo'/>
-            </div>
-            <div id="navigation-elements">
-                <p>Home</p>
-                <p>About</p>
-                <p>Menu</p>
-                <p>Resevations</p>
-                <p>Order Online</p>
-                <p>Login</p>
 
-            </div>
+        <>
+            <header>
+                <div id='image'>
+                    <img src={logo} alt='logo' id='header-logo'/>
+                </div>
 
-        </header>
+                <nav id="navigation-elements">
+                    <a href='/' >Home</a>
+                    <a href='/about' >About</a>
+                    <a href='/menu' >Menu</a>
+                    <a href='/reservation' >Resevations</a>
+                </nav>
+
+            </header>
+            <main>
+                {
+                    
+                }
+
+            </main>
+        </>
+        
         )
 }
