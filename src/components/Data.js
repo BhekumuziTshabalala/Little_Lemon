@@ -1,7 +1,7 @@
 const special = {
     name : "pasta alfredo",
     image : "https://as1.ftcdn.net/v2/jpg/03/88/35/68/1000_F_388356842_278zLt0yP5IWihvItePWqXojQaF8GQo8.jpg",
-    desciption : "Pasta Alfredo is a classic Italian dish made with fettuccine, Parmesan cheese, and butter, resulting in a rich and creamy sauce ",
+    desciption : "Certainly! Alfredo pasta is a luscious Italian dish featuring fettuccine noodles bathed in a silky sauce made from butter, Parmesan cheese, and black pepper. It’s a comforting classic that satisfies both the palate and the soul.",
     price : "R68"
 }
 

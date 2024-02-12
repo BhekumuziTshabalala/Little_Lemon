@@ -8,17 +8,20 @@ export default function (){
     const style = {
         width :"400px",
         height : "400px",
-        border: "solid 1px",
-        background: "white",
-        backgroundImage: 'url($ {data.image})'
+        backgroundImage: `url(${dish.image})`,
+        backgroundSize: "cover", // resize the image to cover the div
+        backgroundPosition: "center",
+        boxShadow: "5px 5px 5px 3px black",
+        borderRadius : "1vh"
 
     }
     return(
         <div className="dish">
 
-             <div id="dish-info">
-                <h1>{dish.name} </h1>
-                <p>{dish.desciption}</p>
+             <div className="dish-info">
+                <h1 id="dishOfTheDay">Dish Of The Day</h1>
+                <h1 id="dish-name">{dish.name} </h1>
+                <p id="dish-desciption">{dish.desciption}</p>
             </div>
 
             <div className="image" style={style}> </div>

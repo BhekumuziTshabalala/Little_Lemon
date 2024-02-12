@@ -1,11 +1,40 @@
+/* adding a custom font */
+@font-face {
+    font-family:campana ;
+    src: url("../assets/Campana.otf")
+    /* format("typetrue") */
+    
+}
+
 .dish{
     display: flex;
-    border: solid 1px;
     justify-content: space-around;
 }
 
+#dishOfTheDay{
+    font-family: campana;
+    font-size: 90px;
+    margin: 0;
+    text-align: center;
+    align-self: top;
+
+
+}
 #dish-info{
+    margin-bottom: 0;
+}
+
+#dish-desciption{
+    margin: 0;
+    padding-right: 10%;
+}
+
+.dish-info{
+    margin: 0;
+    font-family: './assetra';
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding-left: 10%;
+    text-transform: capitalize;
+    
 }
