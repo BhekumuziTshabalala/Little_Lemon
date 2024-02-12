@@ -22,9 +22,17 @@ export default function (){
                 <h1 id="dishOfTheDay">Dish Of The Day</h1>
                 <h1 id="dish-name">{dish.name} </h1>
                 <p id="dish-desciption">{dish.desciption}</p>
+
+                <div id="btn">
+                    <input id="reservation-btn" value="Make Reservation" type="button" 
+                    onClick={() => window.location.pathname = "/reservation"}/>
+
+                </div>
             </div>
 
             <div className="image" style={style}> </div>
+
+            
 
         </div>
     )

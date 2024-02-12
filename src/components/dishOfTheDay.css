@@ -9,6 +9,8 @@
 .dish{
     display: flex;
     justify-content: space-around;
+    position: relative;
+    
 }
 
 #dishOfTheDay{
@@ -17,16 +19,45 @@
     margin: 0;
     text-align: center;
     align-self: top;
+    
 
 
 }
 #dish-info{
     margin-bottom: 0;
+    
+    
 }
+#btn{
+    margin-top:  10%;
+}
+
+
 
 #dish-desciption{
     margin: 0;
     padding-right: 10%;
+    
+   
+    
+
+}
+
+#reservation-btn{ 
+    position: relative ;
+    height: 40px;
+    border-radius: 1vh;
+    margin-left: 10%;
+    cursor: pointer;
+    background-color: rgb(40, 150, 40);
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    width: 40h;
+}
+
+#reservation-btn:hover{
+    background-color: rgba(40, 150, 40, 0.738);
 }
 
 .dish-info{
@@ -36,5 +67,6 @@
     flex-direction: column;
     padding-left: 10%;
     text-transform: capitalize;
+    
     
 }
