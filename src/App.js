@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Menu from './components/Menu';
 import Nav from './components/Nav';
 import Reservations from './components/Reservation';
+import Footer from './components/Footer';
 
 function App() {
   let Component;
@@ -30,6 +31,7 @@ function App() {
       
       <Nav />
       <Component/>
+      <Footer/>
     </div>
   );
 }
