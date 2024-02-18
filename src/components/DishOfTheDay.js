@@ -1,10 +1,9 @@
-import data from "./Data";
 import './dishOfTheDay.css'
 
 
-export default function (){
-    const dish = data.special;
-
+export default function (props){
+    const dish = props.dish;
+    
     const style = {
         width :"600px",
         height : "400px",

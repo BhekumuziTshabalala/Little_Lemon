@@ -21,4 +21,26 @@ const menu = [
 { name: 'Seafood Risotto', price: '$24.99',description :'A luxurious risotto loaded with shrimp, scallops, calamari, and mussels. The flavors of the sea in every spoonful.', image: 'https://bing.com/th?id=OSK.cf29cf92f3a6c974c48d38ae2271b3a1' }
 ];
 
-export default {menu ,special}
+let specialties = [
+    {
+      name: "Hummus",
+      description: "A creamy spread made from mashed chickpeas, tahini, olive oil, lemon juice, salt and garlic.",
+      price: "$5.99",
+      image: "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2022/08/Hummus-8.jpg"
+    },
+    {
+      name: "Falafel",
+      description: "Deep-fried balls made from ground chickpeas, fava beans, or both, served in a pita.",
+      price: "$7.99",
+      image: "https://th.bing.com/th/id/OIP.pj0BYIgE7RU6rUZICYeqPQHaEc?w=4480&h=2688&rs=1&pid=ImgDetMain"
+    },
+    {
+      name: "Baklava",
+      description: "A sweet dessert pastry made of layers of filo filled with chopped nuts and sweetened with syrup or honey.",
+      price: "$3.99",
+      image: "https://th.bing.com/th/id/OIP.B2t5XiE3YVBj98xjGiSRKAHaE8?rs=1&pid=ImgDetMain"
+    }
+  ];
+  
+
+export default {menu ,special,specialties}

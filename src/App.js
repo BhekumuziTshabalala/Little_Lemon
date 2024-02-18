@@ -6,31 +6,32 @@ import Menu from './components/Menu';
 import Nav from './components/Nav';
 import Reservations from './components/Reservation';
 import Footer from './components/Footer';
+import Data from './components/Data'
 
 function App() {
   let Component;
   switch(window.location.pathname){
     case("/") :
-      Component = Home;
+      Component = <Home specialties = {Data.specialties} dish = {Data.special}/>;
       break
     case ("/menu") :
-      Component = Menu;
+      Component = <Menu/>;
       break;
     case ("/about") :
-        Component = About;
-        break
+        Component = <About/>;
+        break;
     case ("/reservation") :
-      Component = Reservations;
-      break;
+      Component = <Reservations/>;
+        break;
     default:
-      Component = PageNotFound;
+      Component = <PageNotFound/>;
   }
 
   return (
     <div className="App">
       
       <Nav />
-      <Component/>
+      {Component}
       <Footer/>
     </div>
   );
