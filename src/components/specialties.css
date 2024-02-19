@@ -1,4 +1,14 @@
+@font-face {
+    font-family:sundori ;
+    src: url("../assets/SundoriRegular-5y85a.ttf")
+    /* format("typetrue") */
+    
+}
+#text{
+    font-family: sundori;
+}
 .cards {
     display: flex;
     margin-top: 50px;
+    
 }

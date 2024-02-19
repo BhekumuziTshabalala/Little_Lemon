@@ -8,7 +8,7 @@ export default function Home(props){
             <div className='dishOfTheDay'>
                 <DishOfTheDay dish = {props.dish}/>
             </div>
-            <div>
+            <div className='specialties'>
                 <Specialties specialties = {props.specialties}/>
             </div>
             

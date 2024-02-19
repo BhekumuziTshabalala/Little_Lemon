@@ -2,8 +2,8 @@ import "./card.css"
 
 export default function Card(props){
     const style = {
-        width :"200px",
-        height : "200px",
+        width :"300px",
+        height : "300px",
         backgroundSize: "cover", // resize the image to cover the div
         backgroundPosition: "center",
         backgroundImage: `url(${props.dish.image})`,
@@ -14,12 +14,16 @@ export default function Card(props){
     return (
         <>
 
-            <div className="cardImage" >
-                <article style={style}>
-                    
+            <div  >
+                <article style={style}>  
                 </article>
-                <h1>
-                </h1>
+                <div id="name-price">
+                    <h2>{props.dish.name}</h2>
+                    <h2>{props.dish.price}</h2>
+                </div>
+                
+                <p id="description">
+                    {props.dish.description}</p>
             </div>
         </>
     )

@@ -1,4 +1,17 @@
 .cardImage{
     display: flex;
     flex-direction: row;
+
+}
+
+#name-price{
+    display: flex;
+    justify-content: space-between;
+    width :300px;
+    margin-bottom: 0;
+}
+
+#description{
+    width: 300px;
+    margin-top: 0;
 }

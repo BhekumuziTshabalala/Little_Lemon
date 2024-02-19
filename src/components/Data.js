@@ -32,7 +32,7 @@ let specialties = [
       name: "Falafel",
       description: "Deep-fried balls made from ground chickpeas, fava beans, or both, served in a pita.",
       price: "$7.99",
-      image: "https://th.bing.com/th/id/OIP.pj0BYIgE7RU6rUZICYeqPQHaEc?w=4480&h=2688&rs=1&pid=ImgDetMain"
+      image: "https://www.yummytummyaarthi.com/wp-content/uploads/2022/07/falafel-1.jpeg"
     },
     {
       name: "Baklava",
