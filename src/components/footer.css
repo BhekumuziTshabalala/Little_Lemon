@@ -1,0 +1,24 @@
+#socialMedia{
+    width: 50px;
+}
+
+#socialMedia:hover{
+    cursor: pointer;
+    background-color: rgba(17, 17, 17, 0.064);
+}
+
+#logo{
+    width: 100px;
+}
+
+.footer{
+    display: flex;
+    padding :2vw 10vw;
+    gap:5%;
+    background-color: aliceblue;
+    
+}
+
+.socials{
+    flex: 1;
+}
