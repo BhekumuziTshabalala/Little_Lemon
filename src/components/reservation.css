@@ -1,3 +1,33 @@
 .form{
     padding :2vw 10vw;
+    background-color: bisque;
+    
+}
+
+.input-container{
+    display: flex;
+    /* justify-content:space-between; */
+    padding: 0 10%;
+}
+
+#text{
+    text-align: center;
+    font-size: 40PX ;
+   
+}
+
+
+.input{
+
+    width: 50%;
+    height: 40px;
+    /* justify-self: end; */
+}
+
+.requets{
+    height: 80px;
+}
+
+label{
+    width: 30%;
 }
