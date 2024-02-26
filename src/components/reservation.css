@@ -6,7 +6,6 @@
 
 .input-container{
     display: flex;
-    /* justify-content:space-between; */
     padding: 0 10%;
 }
 
@@ -21,7 +20,7 @@
 
     width: 50%;
     height: 40px;
-    /* justify-self: end; */
+
 }
 
 .requets{
@@ -30,4 +29,21 @@
 
 label{
     width: 30%;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: 1vh;
+    
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: aliceblue;
 }

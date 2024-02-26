@@ -129,11 +129,15 @@ function Reservation() {
               value={requests}
               onChange={handleRequetsChange}
               placeholder="Requests"
-              required
+              
           />
         </div>
+
+        <div id='btn'>
+          <button type="submit" >Submit</button>
+        </div>
        
-        <button type="submit">Submit</button>
+        
 
         
       </form>

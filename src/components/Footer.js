@@ -12,7 +12,7 @@ export default function Footer(){
             <div >
                 <img src={logo} id="logo"/>
                 <p> Little Lemon, a delightful family-owned Mediterranean restaurant that transports diners to the sun-kissed shores of the Mediterranean</p>
-                <p>@bhekumuziTshabalala all rights reserved</p>
+                <p>@BhekumuziTshabalala all rights reserved</p>
             </div>
             
             <div className="socials">
@@ -22,11 +22,7 @@ export default function Footer(){
                 <img src={twitterIcon}  alt="twitter" id="socialMedia"/>
             </div>
 
-            {/* <div>
-                
-                <h1>@bhekumuziTshabalala all rights reserved</h1>
-                <h2>This is a demo Site for a fictional resturant called little lemon</h2>
-            </div> */}
+           
         </footer>
     )
 }
