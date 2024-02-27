@@ -12,18 +12,11 @@ export default function Nav(){
 
                 <nav id="navigation-elements">
                     <a href='/' >Home</a>
-                    <a href='/about' >About</a>
                     <a href='/menu' >Menu</a>
                     <a href='/reservation' >Resevations</a>
                 </nav>
 
             </header>
-            <main>
-                {
-                    
-                }
-
-            </main>
         </>
         
         )

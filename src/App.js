@@ -1,6 +1,5 @@
 import PageNotFound from './components/404';
 import './App.css';
-import About from './components/About';
 import Home from './components/Home';
 import Menu from './components/Menu';
 import Nav from './components/Nav';
@@ -17,9 +16,9 @@ function App() {
     case ("/menu") :
       Component = <Menu menu= {Data.menu}/>;
       break;
-    case ("/about") :
-        Component = <About/>;
-        break;
+    // case ("/about") :
+    //     Component = <About/>;
+    //     break;
     case ("/reservation") :
       Component = <Reservations/>;
         break;
