@@ -9,6 +9,7 @@ export default function Home(props){
                 <DishOfTheDay dish = {props.dish}/>
             </div>
             <div className='specialties'>
+                <h1 id="text">Our Specialities</h1>
                 <Specialties specialties = {props.specialties}/>
             </div>
             

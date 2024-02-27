@@ -3,7 +3,9 @@
 }
 
 .specialties{
-    padding :2vw 10vw;
+   
+    /* padding :2vw 10vw; */
     background-color: rgb(251, 243, 233);
+    /* justify-content: center; */
 
 }

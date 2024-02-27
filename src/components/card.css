@@ -1,6 +1,6 @@
-.cardImage{
-    display: flex;
-    flex-direction: row;
+.card-image{
+    /* #specifies that each item should take up one-third of the available width (33.33%). */
+    flex: 1 1 33.333333% 
 
 }
 

@@ -9,12 +9,12 @@ export default function Card(props){
         backgroundImage: `url(${props.dish.image})`,
         boxShadow: "5px 5px 5px 3px black",
         borderRadius : "1vh",
-        marginRight : "150px"
+        // marginRight : "150px"
     }
     return (
         <>
 
-            <div  >
+            <div  className="card-image">
                 <article style={style}>  
                 </article>
                 <div id="name-price">

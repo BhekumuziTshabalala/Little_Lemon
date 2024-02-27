@@ -15,7 +15,7 @@ function App() {
       Component = <Home specialties = {Data.specialties} dish = {Data.special}/>;
       break
     case ("/menu") :
-      Component = <Menu/>;
+      Component = <Menu menu= {Data.menu}/>;
       break;
     case ("/about") :
         Component = <About/>;

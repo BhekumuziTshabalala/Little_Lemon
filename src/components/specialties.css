@@ -6,9 +6,15 @@
 }
 #text{
     font-family: sundori;
+    margin :0;
+    padding-top: 30px;
 }
 .cards {
+    padding :2vw 10vw;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     margin-top: 50px;
+    
     
 }
